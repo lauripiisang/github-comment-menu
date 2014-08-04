@@ -5,6 +5,8 @@
 // @description Adds a quick-link menu to comments in commit view
 // @match https://github.com/*/commit/*
 // @copyright 2014+, Lauri Piisang
+// @downloadURL https://raw.githubusercontent.com/lauripiisang/github-comment-menu/master/github-comment-menu.js
+// @updateURL https://raw.githubusercontent.com/lauripiisang/github-comment-menu/master/github-comment-menu.js
 // @require http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
 $(document).ready(function () {
