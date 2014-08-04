@@ -8,3 +8,7 @@ How to use:
  * Add the script
  * Go to a github commit with comments on it
  * Enjoy
+
+
+A screenshot:
+![Screenshot](https://raw.github.com/lauripiisang/github-comment-menu/master/comment-menu-screenshot.png)
