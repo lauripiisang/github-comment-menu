@@ -39,8 +39,7 @@ Comments\
         <span class="description">EXCERPTHOLDER</span>\
     </div>\
 </a>';
-    var comments = $('.timeline-comment:not(.timeline-comment-inline-comment)'); // timeline-comment-inline-comment -- hidden code comments at the bottom of the commit
-    comments.splice(comments.length - 1, 1); // Remove the last element ( the comment form at the bottom )
+    var comments = $('.comment.timeline-comment:visible');
     var commentCount = comments.length;
     //Let's create the menu
     $('.pagehead-actions').prepend(commentMenuHtml);
